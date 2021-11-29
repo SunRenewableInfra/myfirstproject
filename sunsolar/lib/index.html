@@ -31,11 +31,13 @@
 	  nav.bg-grey{
 	  /*background-color:#545d6a;*/
 	  background-color:#fff;
+	  border-bottom:2px solid grey;	  
 	  
 	  }
 	  
 	  nav.bg-grey li.nav-item > a.nav-link,nav.bg-grey a.navbar-brand{
 	  color:#000;
+	  
 	  }
 	  img.company-name{
 		width:40%;
@@ -44,11 +46,32 @@
 	  img.company-logo{
 		width:10%;
 		height:10%;
+		margin-top:-15px;
 	  }
 	  .navbar-nav .nav-link:hover{
 		color:#c0a !important;
 	  }
-	  
+	  h2.heading2{
+		display:inline-block;
+		text-shadow:2px 2px 5px #eb9110;
+		color:#994b08;
+		margin:5px 0px;
+		
+	  }
+	 h2.heading2:hover{
+	  color:#055160;
+	 }	  
+	 div.carousel-caption{
+		background:#025a46;
+		opacity:0.85;
+		border-radius:15px;
+		padding:0px 10px;
+	 }
+	 div.carousel-caption.last-box{
+		width:60%;		
+		float:right;
+	 
+	 }
     </style>
 
     
@@ -62,8 +85,9 @@
     <div class="container-fluid">
 	<div class="sun-r-infra">
 	<a class="navbar-brand" href="#">
-		<img src="../assets/images/company_logo.jpg" class="company-logo"/>
-		<img src="../assets/images/company_name.jpg" class="company-name"/>
+		<img src="../assets/images/company_logo.png" class="company-logo"/>
+		<!--<img src="../assets/images/company_name.png" class="company-name"/>-->
+		<h2 class="heading2">Sun Renewable Infra</h2>
 	  </a>
 	  </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,14 +96,11 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Contact</a>
-          </li>
+          </li>          
         </ul>
         <!--<form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -114,15 +135,17 @@
       </div>
       <div class="carousel-item">
         <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
-		<img src="../assets/images/1663667.jpg" class="bd-placeholder-img" width="100%" height="100%">
+		<img src="../assets/images/1663667.jpg" class="bd-placeholder-img" width="100%" height="100%"/>
         <div class="container">
           <div class="carousel-caption">
             <h1>OUR Projects:</h1>
-            <p>Virudhunagar District – 210 MW</p>
-			<p>Thoothukudi  District –50 MW</p>
-			<p>Tirunelveli District - 30 MW</p>
-			<p>Tiruchirappali District– 15 MW</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <p>
+			<em><b>Virudhunagar District</b></em> – 210 MW,
+			<em><b>Thoothukudi  District</b></em> –50 MW,
+			<em><b>Tirunelveli District</b></em> - 30 MW,
+			<em><b>Tiruchirappali District</b></em> – 15 MW
+			</p>
+			
           </div>
         </div>
       </div>
@@ -130,12 +153,12 @@
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 		<img src="../assets/images/1663661.jpg" class="bd-placeholder-img" width="90%" height="90%">
         <div class="container">
-          <div class="carousel-caption text-end">
+          <div class="carousel-caption last-box">
             <h1>Land Procurement</h1>
-<p><b>Thoothukudi District – 710 Acres</b></p>
-<p><b>Ramnad District – 250 Acres</b></p>
-<p><b>Virudhunagar District – 690 Acres</b></p>
-<p><b>Legal  Scrutinized Area in Acres  - 4000</b></p>
+				<p><b>Thoothukudi District – 710 Acres</b></p>
+				<p><b>Ramnad District – 250 Acres</b></p>
+				<p><b>Virudhunagar District – 690 Acres</b></p>
+				<p><b>Legal  Scrutinized Area in Acres  - 4000</b></p>
             
           </div>
         </div>
@@ -168,7 +191,7 @@
 			<p>Virudhunagar District – 210 MW</p>
 			<p>Thoothukudi  District –50 MW</p>
 			<p>Tirunelveli District - 30 MW</p>
-				<p>Tiruchirappali District– 15 MW</p>
+			<p>Tiruchirappali District– 15 MW</p>
 		</p>        
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
@@ -206,8 +229,8 @@ Solar powered energy sector is developing a qualified line of international & lo
 </p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../assets/images/about_us.jpg" width="500" height="500">
       </div>
     </div>
 
@@ -229,7 +252,8 @@ Solar powered energy sector is developing a qualified line of international & lo
 		</ul>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../assets/images/services.jpg" width="500" height="500">
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
       </div>
     </div>
 
@@ -249,7 +273,8 @@ Solar powered energy sector is developing a qualified line of international & lo
 <p class="lead"><b>Utility scale Roof Top solar Projects–</b> Identify, Study, Build, Operation and Maintenance </p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../assets/images/how-we-work.jpg" width="500" height="800">
 
       </div>
     </div>
