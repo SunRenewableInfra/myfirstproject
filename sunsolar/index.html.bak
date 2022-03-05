@@ -94,8 +94,8 @@
     <div class="container-fluid">
 	<div class="sun-r-infra">
 	<a class="navbar-brand" href="#">
-		<img src="./assets/images/company_logo.jpg" class="company-logo"/>
-		<!--<img src="./assets/images/company_name.png" class="company-name"/>-->
+		<img src="lib/assets/images/company_logo.jpg" class="company-logo"/>
+		<!--<img src="lib/assets/images/company_name.png" class="company-name"/>-->
 		<h2 class="heading2">Sun Renewable Infra</h2>
 	  </a>
 	  </div>
@@ -133,7 +133,7 @@
         <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
 		<rect width="100%" height="100%" fill="#777"/>		
 		</svg>-->
-		<img src="./assets/images/sun_renewable1.jpg" class="bd-placeholder-img" width="100%" height="100%">
+		<img src="lib/assets/images/sun_renewable1.jpg" class="bd-placeholder-img" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Sun Renewable Infra</h1>
@@ -144,7 +144,7 @@
       </div>
       <div class="carousel-item">
         <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
-		<img src="./assets/images/1663667.jpg" class="bd-placeholder-img" width="100%" height="100%"/>
+		<img src="lib/assets/images/1663667.jpg" class="bd-placeholder-img" width="100%" height="100%"/>
         <div class="container">
           <div class="carousel-caption">
             <h1>OUR Projects:</h1>
@@ -160,7 +160,7 @@
       </div>
       <div class="carousel-item">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-		<img src="./assets/images/1663661.jpg" class="bd-placeholder-img" width="90%" height="90%">
+		<img src="lib/assets/images/1663661.jpg" class="bd-placeholder-img" width="90%" height="90%">
         <div class="container">
           <div class="carousel-caption last-box">
             <h1>Land Procurement</h1>
@@ -239,7 +239,7 @@ Solar powered energy sector is developing a qualified line of international & lo
       </div>
       <div class="col-md-5">
         <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
-		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="./assets/images/about_us.jpg" width="500" height="500">
+		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="lib/assets/images/about_us.jpg" width="500" height="500">
       </div>
     </div>
 
@@ -261,7 +261,7 @@ Solar powered energy sector is developing a qualified line of international & lo
 		</ul>
       </div>
       <div class="col-md-5 order-md-1">
-		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="./assets/images/services.jpg" width="500" height="500">
+		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="lib/assets/images/services.jpg" width="500" height="500">
         <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
       </div>
     </div>
@@ -283,7 +283,7 @@ Solar powered energy sector is developing a qualified line of international & lo
       </div>
       <div class="col-md-5">
         <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
-		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="./assets/images/how-we-work.jpg" width="500" height="800">
+		<img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="lib/assets/images/how-we-work.jpg" width="500" height="800">
 
       </div>
     </div>
