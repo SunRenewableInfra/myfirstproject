@@ -78,11 +78,14 @@
 		float:right;
 	 
 	 }
+	 
+	 
+	 
     </style>
 
     
     <!-- Custom styles for this template -->
-    <link href="./lib/carousel.css" rel="stylesheet">
+    <link href="lib/carousel.css" rel="stylesheet">
   </head>
   <body>
     
